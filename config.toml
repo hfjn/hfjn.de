@@ -47,10 +47,10 @@ copyright = "&copy; Jannik Hoffjann"
     url = "/about"
     weight = 1
 
-[[menu.main]]
-    name = "CV"
-    url = "cv"
-    weight = 2
+#[[menu.main]]
+#    name = "CV"
+#    url = "cv"
+#    weight = 2
 
 [[menu.main]]
     name = "Tags"

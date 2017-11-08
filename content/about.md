@@ -1,6 +1,7 @@
 +++
 title = "About"
 keywords = ["Jannik","Hoffjann","about"]
+layout = "page"
 +++
 
 {{% zoom-img src="/images/profile.jpg" %}}
