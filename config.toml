@@ -30,7 +30,7 @@ copyright = "&copy; Jannik Hoffjann"
   # Disqus shortname
   disqus = "hfjn"
   # Google Analytics API key.
-  ga_api_key = "Your Google Analytics tracking id"
+  ga_api_key = "UA-109435025-1"
   #author = "Jannik Hoffjann"
   #authorwebsite = "example.com"
   #avatar = "/path/to/avatar"
