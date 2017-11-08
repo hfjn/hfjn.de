@@ -1,0 +1,42 @@
+.p-menu {
+  margin-top: 0px;
+  &__lists {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 0;
+    @media (--sm) {
+      display: table;
+    }
+  }
+  &__listitem {
+    display: inline-block;
+    margin: 12px 5px 0 0;
+    list-style: none;
+    @media (--sm) {
+      margin: 24px 24px 0 0;
+    }
+    & a {
+      padding-bottom: 4px;
+      &:hover {
+        border-bottom: 1px solid currentColor;
+      }
+    }
+    & ul {
+      padding-left: 12px;
+      & li {
+        margin: 4px 0 0;
+        &::before {
+          content: "-";
+          margin-right: 4px;
+        }
+      }
+    }
+  }
+  &__parent {
+    & span {
+      color: var(--link-color);
+    }
+  }
+}
