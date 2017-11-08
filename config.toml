@@ -1,10 +1,9 @@
-baseurl = "https://weaver-runway-45748.netlify.com/"
+baseurl = "https://hfjn.de/"
 languageCode = "en-us"
 Title = "hfjn"
 
 # Copyright notice. This is displayer in the footer.
 copyright = "&copy; Jannik Hoffjann"
-theme="hfjn"
 
 [params]
   paginate = 5
@@ -27,7 +26,7 @@ theme="hfjn"
   #tumblr = "Your Tumblr username"
   #vimeo = "Your Vimeo username"
   #youtube = "Your YouTube username"
-  linkedin = "Your LinkedIn username"
+  linkedin = "jannik-hoffjann-355721101"
   # Disqus shortname
   disqus = "hfjn"
   # Google Analytics API key.

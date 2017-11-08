@@ -5,7 +5,7 @@
 
     <p class="p-copyright">
       {{ with .Site.Copyright | safeHTML }}
-        {{ . }}
+        {{ . }} | <a href="https://hfjn.de/impressum">Impressum</a>
       {{ else }}
         {{ if .Site.Params.author }}
           {{ if .Site.Params.authorwebsite }}

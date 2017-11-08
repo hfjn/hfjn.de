@@ -1,0 +1,20 @@
+{{ partial "header.html" . }}
+{{ $baseurl := .Site.BaseURL }}
+<article class="p-article">
+  <header>
+    <h1>{{ .Title }}</h1>
+  </header>
+  {{ with .Params.thumbnail }}
+    <img src="{{ . }}" alt="thumbnail" class="p-article__thumbnail">
+  {{ end }}
+  <section id="js-article" class="p-article__body">
+    {{ .Content }}
+  </section>
+  {{ range .Params.tags }}
+          <a href="{{ $baseurl }}tags/{{ . | urlize }}" class="c-tag">{{ . }}</a>
+        {{ end }}
+  <footer>
+    {{ partial "siteinfo.html" . }}
+  </footer>
+</article>
+{{ partial "footer.html" . }}
