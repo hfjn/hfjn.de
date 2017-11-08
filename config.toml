@@ -1,0 +1,59 @@
+baseurl = "https://example.com"
+languageCode = "en-us"
+Title = "hfjn"
+
+# Copyright notice. This is displayer in the footer.
+copyright = "&copy; Jannik Hoffjann"
+theme="hfjn"
+
+[params]
+  paginate = 5
+
+  # Social accounts. Link to these accounts are displayed in the header and
+  # footer
+  
+  twitter = "_hfjn"
+  #facebook = "Your Facebook username"
+  instagram = "aufeinwort"
+  #googleplus = "Your Google+ account URL" # https://plus.google.com/u/0/xxxxxx
+  github = "hfjn"
+  #gitlab = "Your GitLab username"
+  #npm = "Your npm username"
+  #codepen = "Your CodePen username"
+  #dribbble = "Your Dribbble username"
+  #fivehundredpx = "Your 500px username" # 500px
+  #flickr = "Your Flickr username"
+  #pinterest = "Your Pinterest username"
+  #tumblr = "Your Tumblr username"
+  #vimeo = "Your Vimeo username"
+  #youtube = "Your YouTube username"
+  linkedin = "Your LinkedIn username"
+  # Disqus shortname
+  disqus = "hfjn"
+  # Google Analytics API key.
+  ga_api_key = "Your Google Analytics tracking id"
+  #author = "Jannik Hoffjann"
+  #authorwebsite = "example.com"
+  #avatar = "/path/to/avatar"
+  #contact = "Your contact link (ex. mailto:foo@example.com)"
+  #bio = "Your short bio"
+  # Short subtitle/tagline. This is displayed in the header.
+  #subtitle = "hfjn"
+  # Logo image. This is displayed ogp image.
+  #logo = "/path/to/logo"
+  #favicon = "/path/to/favicon"
+
+[[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 1
+
+[[menu.main]]
+    name = "CV"
+    url = "cv"
+    weight = 2
+
+[[menu.main]]
+    name = "Tags"
+    url = "/tags"
+    weight = 3
