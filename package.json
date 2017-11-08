@@ -6,8 +6,8 @@
   "scripts": {
     "hugo": "hugo server",
     "dev": "gulp",
-    "prod": "gulp clean && gulp --env production && hugo",
-    "build": "gulp build --env production",
+    "prod": "gulp clean && gulp --env production",
+    "build": "gulp build --env production && hugo",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "mismith0227",
