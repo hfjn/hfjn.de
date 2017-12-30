@@ -1,6 +1,6 @@
 +++
 title = "A year in review"
-date = "2017-11-08"
+date = "2017-12-31"
 tags = ["blog"]
 categories = ["starting"]
 draft = true
